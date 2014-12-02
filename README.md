@@ -8,6 +8,10 @@ CDN edition of Snapsvg packaged for Meteor.
     \<<https://github.com/adobe-webplatform/Snap.svg/>\>
 -   A Sample Tutorial: [Tutorial][] \<<http://snapsvg.io/start/>\>
 
+To install:
+
+> meteor add mirageglobe:snapsvgcdn
+
 HowTo:
 
 > Template.\<templatename\>.rendered = function(){  
