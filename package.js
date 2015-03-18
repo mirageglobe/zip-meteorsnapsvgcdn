@@ -1,7 +1,7 @@
 Package.describe({
   name: 'mirageglobe:snapsvgcdn',
   summary: 'CDN based Snapsvg for Meteor',
-  version: '1.0.1',
+  version: '1.1.0',
   git: 'https://github.com/mirageglobe/meteorsnapsvgcdn'
 });
 
