@@ -1,7 +1,7 @@
 Package.describe({
   name: 'mirageglobe:snapsvgcdn',
-  summary: 'Latest version snapsvg loaded via fast CDN: cdnjs',
-  version: '1.2.1',
+  summary: 'Latest version snapsvg loaded via fast CDN: cdn.jsdelivr.net',
+  version: '1.2.2',
   git: 'https://github.com/mirageglobe/meteorsnapsvgcdn'
 });
 
