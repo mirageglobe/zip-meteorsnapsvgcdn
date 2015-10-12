@@ -1,5 +1,7 @@
 meteor-snapsvgcdn
-=================
+======================
+
+[![Build Status](https://travis-ci.org/mirageglobe/meteorsnapsvgcdn.svg?branch=master)](https://travis-ci.org/mirageglobe/meteorsnapsvgcdn)
 
 CDN edition of Snapsvg packaged for Meteor.
 
@@ -14,7 +16,7 @@ To install:
 
 HowTo:
 
-> Template.\<templatename\>.rendered = function(){  
+> Template.\<templatename\>.rendered = function(){
 > // snap code here
 >
 > }
@@ -41,4 +43,3 @@ Happy drawing! Added bonus: use svgcrowbar to download the svg (http://nytimes.g
   [Snapsvg]: http://www.snapsvg.io/
   [Github]: https://github.com/adobe-webplatform/Snap.svg/
   [Tutorial]: http://snapsvg.io/start/
-  
