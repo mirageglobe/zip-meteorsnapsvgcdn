@@ -1,9 +1,9 @@
 # meteor-snapsvgcdn #
 
+[![Build Status](https://travis-ci.org/mirageglobe/meteorsnapsvgcdn.svg?branch=master)](https://travis-ci.org/mirageglobe/meteorsnapsvgcdn)
+
 - author/site : Jimmy MG Lim (mirageglobe@gmail.com) / www.mirageglobe.com
 - source : https://github.com/mirageglobe/meteorsnapsvgcdn
-
-[![Build Status](https://travis-ci.org/mirageglobe/meteorsnapsvgcdn.svg?branch=master)](https://travis-ci.org/mirageglobe/meteorsnapsvgcdn)
 
 CDN edition of Snapsvg packaged for Meteor.
 
