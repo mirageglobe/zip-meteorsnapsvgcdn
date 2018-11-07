@@ -24,25 +24,24 @@ to install,
 ```
 
 ```
-> Template.\<templatename\>.rendered = function(){
-> // snap code here
->
-> }
+  Template.\<templatename\>.rendered = function(){
+    // snap code here
+  }
 ```
 
 to add to your app, in your html file create a template
 ```
-> \<template name="snapsvgdraw"\>
-> \</template\>
+  <template name="snapsvgdraw"\>
+  </template\>
 ```
 
 in your js file, within isClient...
 ```
-> // snapsvgdraw is a template with nothing in it. this draws a 800 x 600 canvas for drawing.
-> Template.snapsvgdraw.rendered = function () {
-> "use strict";
-> Meteor.setTimeout(function () {var s = new Snap(800, 600), bigCircle = s.circle(150, 150, 100); }, 1000);
-> };
+  // snapsvgdraw is a template with nothing in it. this draws a 800 x 600 canvas for drawing.
+  Template.snapsvgdraw.rendered = function () {
+    "use strict";
+    Meteor.setTimeout(function () {var s = new Snap(800, 600), bigCircle = s.circle(150, 150, 100); }, 1000);
+  };
 ```
 
 Note that it may take a few m.seconds for the lib to load, so you may encounter "Snap is not found" if the snap cdn library is not loaded. The above will avoid this problem. (thanks to mattybow for spotting)
