@@ -1,5 +1,7 @@
 # meteor-snapsvgcdn #
 
+This project is archived as snap svg by adobe has not seen updates for more than 3 years.
+
 [![Build Status](https://travis-ci.org/mirageglobe/meteorsnapsvgcdn.svg?branch=master)](https://travis-ci.org/mirageglobe/meteorsnapsvgcdn)
 
 - author/site : Jimmy MG Lim (mirageglobe@gmail.com) / www.mirageglobe.com
